@@ -5,5 +5,12 @@ Gem::Specification.new do |spec|
 	spec.summary = "Simple todo and task list for the command line"
 	spec.authors = [ "joncos" ]
 	spec.homepage = "https://github.com/joncos/cltasks"
-	spec.license = "MIT"
+  spec.license = "MIT"
+
+  spec.files = [ 
+    "lib/cltasks.rb",
+    "lib/cltasks/task.rb",
+    "lib/cltasks/project.rb"
+  ]
+
 end

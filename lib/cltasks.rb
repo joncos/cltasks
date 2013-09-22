@@ -1,5 +1,9 @@
+require "cltasks/task"
+require "cltasks/project"
+
 class Hello
 	def self.hi
-		puts "Hello from my first Ruby Gem"
+    Project.hi
+    Task.hi
 	end
 end
