@@ -1,4 +1,3 @@
-#!/home/vcostea/.rvm/bin/ruby
 #!/usr/bin/env ruby
 
 require "cltasks"

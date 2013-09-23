@@ -7,6 +7,8 @@ Gem::Specification.new do |spec|
 	spec.homepage = "https://github.com/joncos/cltasks"
   spec.license = "MIT"
 
+  spec.executables << "cltasks"
+
   spec.files = [ 
     "lib/cltasks.rb",
     "lib/cltasks/task.rb",
