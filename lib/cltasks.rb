@@ -4,7 +4,7 @@ require "cltasks/project"
 class App
 
 	def print_args
-		pust ARGV
+		puts ARGV
 	end
 
 end

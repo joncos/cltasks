@@ -1,5 +1,7 @@
 class Task
-  def self.hi
-    puts "Hello, I am Task"
-  end
+	attr_accessor :name
+
+	def initialize(name)
+		@name = name
+	end
 end
